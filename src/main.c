@@ -40,7 +40,8 @@ char *inverter(char *frase){ // função inversor de palavras
 }
 
 int main() {
-  char buffer[tam_buffer];
+  char buffer[tam_buffer];    
   fgets(buffer, tam_buffer, stdin);
   inverter(buffer);
+  return 0;
   }
